@@ -445,12 +445,12 @@ section.header .block-menu-deals .block-deals li a {
 section.header .block-menu-deals .block-deals li:last-child a#lang-dropdown1 {
   content: url("../svg/globe.svg");
   width: 31px;
-  margin-right: 16px;
+  margin-right: 40px;
 }
 section.header .block-menu-deals .block-deals li:last-child a#lang-dropdown {
   content: url("../images/globe-lang.svg");
   width: 31px;
-  margin-right: 16px;
+  margin-right: 40px;
 }
 
 @media screen and (min-width: 1920px) {
@@ -704,7 +704,6 @@ footer {
 
 @media screen and (max-width: 992px) {
   footer {
-    background-position-x: -27rem;
     background-position-y: 0rem;
   }
 }
