@@ -1,0 +1,24 @@
+.green {
+    color: $green !important;
+}
+.bg-light {
+    background-color: #D9D9D9 !important;
+}
+.bg-green {
+    color: white;
+    background-color: $green !important;
+}
+.bg-dark-green {
+    color: white;
+    background-color: $dark-green !important;
+}
+button.bg-green, button.bg-dark-green {
+    font-weight: bold;
+    &:hover {
+        text-decoration: underline;
+        color: white;
+    }
+}
+.upc {
+    text-transform: uppercase;
+}

@@ -1,0 +1,357 @@
+section {
+    &.header {
+        height: 105px;
+        padding: 1rem 0;
+        @media screen and (max-width: 992px) {
+            height: 90px;
+            padding: .5rem 0;
+        }
+        @media screen and (min-width: 1920px) {
+            font-size: 1.5rem;
+            height: 130px;
+        }
+        // box-shadow: 0 6px 37px #00000014;
+        #fixed-header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 20;
+            background-color: transparent;
+            //height: 105px;
+            @media screen and (max-width: 992px) {
+                height: 90px;
+            }
+            @media screen and (min-width: 1920px) {
+                height: 130px;
+            }
+        }
+        .menu-shwd {
+            position: absolute !important;
+            z-index: unset !important;
+        }
+        .block-logo {
+            @media screen and (max-width: 992px) {
+                height: 90px;
+                top: -16px
+            }
+            @media screen and (min-width: 992px) and (max-width: 1200px) {
+                top: -15px;
+            }
+            @media screen and (max-width: 1200px) {
+                position: relative;
+            }
+            @media screen and (min-width: 1920px) {
+                height: 130px;
+            }
+            a.logo-link {
+                img {
+                    height: 105px;
+                    @media screen and (max-width: 992px) {
+                        align-items: center;
+                        height: 60px;
+                        height: 90px;
+                    }
+                    @media screen and (min-width: 1920px) {
+                        height: 130px;
+                    }
+                }
+            }
+        }
+        .block-menu-deals {
+            display: flex;
+            align-items: center;
+            .block-menu {
+                margin-right: 1rem;
+                @media screen and (max-width: 992px) {
+                    top: 9px;
+                }
+                z-index: 22;
+                @media screen and (min-width: 992px) and (max-width: 1200px) {
+                    width: 337px;
+                }
+                button {
+                    &:focus {
+                        box-shadow: unset;
+                    }
+                    height: 40px;
+                    padding: 0;
+                    span.menu-icon {
+                        position: relative;
+                        display: block;
+                        height: 2px;
+                        width: 25px;
+                        background-color: white;
+                    
+                        &:before {
+                            position: absolute;
+                            top: -5px;
+                            right: 0;
+                            content: '';
+                            height: 2px;
+                            width: 25px;
+                            background: white;
+                            border-radius: 50px;
+                            transition: all ease-in-out .1s;
+                        }
+                        &:after {
+                            position: absolute;
+                            top: 5px;
+                            right: 0;
+                            content: '';
+                            height: 2px;
+                            width: 25px;
+                            background: white;
+                            border-radius: 50px;
+                            transition: all ease-in-out .1s;
+                        }
+                        &.close-icon {
+                            &.menu-icon {
+                                background-color: white;
+                            }
+                            &:before {
+                                top: 0 !important;
+                                transform: rotate(-45deg);
+                                transition: all ease-in-out .1s;
+                            }
+                            &:after {
+                                top: 0 !important;
+                                transform: rotate(45deg);
+                                transition: all ease-in-out .1s;
+                            }
+                        }
+                        @media screen and (min-width: 1920px) {
+                            transform: scale(2);
+                            top: 9px;
+                            &:before {
+                                top: -6px;
+                            }
+                            &:after {
+                                top: 6px;
+                            }
+                        }
+                    }
+                }
+            }
+            
+            .block-deals {
+                left: -1rem !important;
+                position: relative;
+                @media screen and (max-width: 992px) {
+                    top: 16px;
+                }
+                @media screen and (min-width: 1920px) {
+                    top: 28px;
+                }
+                li {
+                    border: unset;
+                    padding: 0 1.25rem;
+                    background: transparent;
+                    a {
+                        color: white;
+                        white-space: nowrap;
+                        line-height: .8;
+                    }
+                    &:last-child {
+                        @media screen and (min-width: 992px) {
+                            border-left: 1px solid white;
+                            line-height: .8;
+                        }
+                        a#lang-dropdown {
+                            content: url("../images/globe-lang.svg");
+                            @media screen and (min-width: 1920px) {
+                                transform: scale(1);
+                                vertical-align: middle;
+                                margin-top: -3px;
+                            }
+                        }
+                        .dropdown-menu.show {
+                            padding: 0;
+                            display: flex;
+                            transform: translate3d(-154px, 26px, 0px) !important;
+                            @media screen and (max-width: 992px) {
+                                display: block;
+                                transform: translate3d(-63px, 36px, 0px) !important;
+                                min-width: unset;
+                            }
+                            @media screen and (min-width: 1920px) {
+                                transform: translate3d(-198px, 46px, 0px) !important;
+
+                                font-size: 1.5rem;
+                            }
+                            a {
+                                border: 1px solid $green;
+                                &.selected {
+                                    background-color: $green;
+                                    color: white;
+                                }
+                            }
+                        }
+                        // div[aria-expanded="true"] {
+
+                        // }
+                    }
+                    &:last-child {
+                        padding-right: 0;
+                    }
+                }
+            }
+        }
+        .menu-container {
+            .body {
+                padding: 1rem 4rem;
+                position: relative;
+                top: -4rem;
+                @media screen and (max-width: 992px) {
+                    padding: 0;
+                }
+            }
+            background-color: white;
+            padding: 5rem;
+            @media screen and (max-width: 992px) {
+                padding: 10rem 10%;
+            }
+            height: 200vh;
+            position: absolute;
+            top: 0;
+            left: -100%;
+            &.show{
+                left: 0;
+            }
+            transition: .5s;
+            z-index: 20;
+            .block-menu-content {
+                h5 {
+                    background-color: $green;
+                    color: white;
+                    padding: 5px;
+                    text-transform: uppercase;
+                    a {
+                        display: block;
+                        &:hover {
+                            text-decoration: unset;
+                        }
+                        span {
+                            position: relative;
+                            top: -7px;
+                        }
+                    }
+                }
+                .menu-body {
+                    a {
+                        color: unset;
+                    }
+                }
+                .socials-media {
+                    border-top: 2px solid $grey;
+                    padding: 1rem 0;
+                    p {
+                        font-size: 1.5rem;
+                        text-transform: uppercase;
+                    }
+                    li img {
+                        height: 30px;
+                    }
+                }
+            }
+            .block-search {
+                input {
+                    border: unset;
+                    border-bottom: 2px solid $light-grey;
+                }
+            }
+            .block-article-content {
+                .card {
+                    img {
+                        // display: block;
+                        // margin-left: auto;
+                        // margin-right: auto;
+                        // width: 275px;
+                        // margin-top: 5.5rem;
+                        display: block;
+                        margin-left: auto;
+                        margin-right: auto;
+                        width: 235px;
+                        margin-top: 3.5rem;
+                    }
+                    .card-img-overlay {
+                        left: unset;
+                        padding: .7rem;
+                        .card-title {
+                            font-weight: bold;
+                            margin: 0;
+                        }
+                        small {
+                            font-size: 0.6rem;
+                            display: block;
+                        }
+                        .card-prix {
+                            font-size: 2rem;
+                            font-weight: bold;
+                            margin-top: -10px;
+                            sup {
+                                font-size: 1rem;
+                                top: -.9rem;
+                            }
+                            sub {
+                                font-size: .7rem;
+                                bottom: .1rem;
+                                left: -1.8rem;
+                            }
+                        }
+                    }
+                    .card-body {
+                        color: white;
+                        background-color: $black;
+                        padding: 0;
+                        li {
+                            display: inline-grid;
+                            width: 76px;
+                            // font-size: 2.3rem;
+                            font-weight: bold;
+                            background-color: unset;
+                            border: 2px solid $grey;
+                            margin: 10px;
+                            padding: 10px;
+                            border-radius: 22px;
+                            span {
+                                // font-size: 1.7rem;
+                                transform: scale(1.75);
+                            }
+                            small {
+                                font-size: 1rem ;
+                            }
+                            &:nth-child(2), &:nth-child(4) {
+                               font-size: 2rem;
+                               border: unset;
+                               width: auto;
+                               margin: auto 0;
+                               padding: unset;
+                            }
+                        }
+                    }
+                }
+            }
+            .block-newsletter {
+                input {
+                    color: $green;
+                    border-color: $green !important;
+                }
+            }
+        }
+    }
+}
+.flash-deals {
+    &:after {
+        content: "";
+        position: absolute;
+        background-image: url(../svg/promotions.svg);
+        background-size: cover;
+        display: inline-block;
+        height: 15px;
+        width: 15px;
+        margin: 0 3px;
+        margin-top: -3px;
+        transform: scale(1.2);
+    }
+}

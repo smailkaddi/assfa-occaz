@@ -1,0 +1,103 @@
+footer {
+    padding: 0 3%;
+    // .bg {
+
+    //     background-image: url("../svg/head-footer-bg.svg");
+    //     background-size: cover;
+    //     background-repeat: no-repeat;
+    // }
+    // // background-color: #1f1f1f;
+    background-image: url("../svg/footer.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: -1px;
+    // padding-top: 8.5rem;
+    padding-top: 10.3%;
+    color: white;
+    @media screen and (max-width: 992px) {
+        // background-position-x: -104%;
+        // background-position-y: 1px;
+        // padding-top: 4rem;
+        background-position-x: -27rem;
+        background-position-y: 0rem;
+    }
+    // @media screen and (min-width: 1920px) {
+    //     padding-top: 10rem;
+    // }
+    .footer-head:nth-child(1) {
+        .footer-logo {
+            // background-image: url("../svg/footer-logo.svg");
+            // background-size: 55%;
+            // background-repeat: no-repeat;
+            // min-height: 75px;
+            // width: auto;
+            margin-top: -1.6rem;
+            margin-left: -12px;
+            img {
+                width: 55%;
+            }
+            @media screen and (max-width: 992px) {
+                // background-size: contain;
+                // background-position: center;
+                text-align: center;
+                margin-left: unset;
+                img{
+                    width: 70%;
+                }
+            }
+            @media screen and (min-width: 1920px) {
+                img {
+                    width: 63%;
+                }
+            }
+        }
+    }
+    .footer-head {
+        h4 {
+
+            a {
+                font-size: 1rem;
+                white-space: nowrap;
+                text-decoration: unset;
+                @media screen and (min-width: 1920px) {
+                    font-size: 1.75rem;
+                }
+            }
+        }
+        @media screen and (max-width: 992px) {
+            h4 {
+                border-top: 2px solid;
+                // margin-left: 15px;
+                margin-top: .5rem;
+                a{
+                    padding-left: 0;
+                }
+            }
+        }
+    }
+    .copyright {
+        font-size: .75rem;
+        @media screen and (min-width: 1920px) {
+            font-size: 1.4rem;
+        }
+    }
+    .footer-menu {
+        .list-group-item {
+            background-color: unset;
+            padding: unset;
+            display: inline-block;
+            padding: 0 15px;
+        }
+    }
+    
+    a {
+        color: unset;
+        font-size: .75rem;
+        &:hover {
+            color: unset;
+        }
+        @media screen and (min-width: 1920px) {
+            font-size: 1.4rem;
+        }
+    }
+}

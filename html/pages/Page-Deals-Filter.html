@@ -1,0 +1,831 @@
+<!doctype html>
+<html lang="">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- <link rel="icon" href="../../assets/img/favicon.ico" /> -->
+  <link rel="stylesheet" href="../../assets/scss/style.css">
+  <title>Détails Deals - Assafa</title>
+</head>
+<body class="d-deals-f">
+  <section class="header">
+    <div class="container-fluid">
+      <div class="body">
+        <div class="row">
+          <div class="col-12 d-flex justify-content-between" id="fixed-header"
+            style=" box-shadow: 0 4px 55px 0 rgba(95, 46, 46, 0.2);background-color:white">
+            <div class="block-logo">
+              <a href="Accueil.html" class="logo-link d-flex">
+                <img src="../../assets/images/logo2.png" class="img-fluid" alt="logo">
+              </a>
+            </div>
+            <div class="block-menu-deals">
+              <div class="block-deals">
+                <ul class="list-group list-unstyled list-group-horizontal">
+                  <li class="list-group-item d-none d-lg-block"><a style="color:#008F70;"
+                      href="Page-Deals-Filter.html">Accès aux offres</a></li>
+                  <li class="list-group-item" style=" border-left: 1px solid #008F70">
+                    <a href="#" id="lang-dropdown1" data-toggle="dropdown" aria-haspopup="true"
+                      aria-expanded="false"></a>
+                    <div class="dropdown-menu" aria-labelledby="lang-dropdown">
+                      <a class="dropdown-item selected" href="#">Francais</a>
+                      <a class="dropdown-item" id="languge" href="#">Arabe</a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="block-menu">
+                <button type="button" class="btn" id="menu-toggle">
+                  <span class="menu-icon" ></span>
+                </button>
+              </div>
+            </div>
+          </div>
+        
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid menu-container">
+      <div class="body">
+        <div class="row block-search d-none d-lg-block">
+          <div class="offset-lg-7 col-lg-4 p-0">
+            <form>
+              <div class="form-row">
+                <div class="form-group w-100">
+                  <input type="text" class="form-control" id="inputSearch" placeholder="Rechercher">
+                  <small class="form-text validation text-muted"></small>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 order-2 order-lg-1 p-0">
+            <div class="row block-menu-content">
+              <div class="col-12">
+                <div class="menu-head">
+                  <h5>
+                    <a class="no-style" data-toggle="collapse" href="#menu-item-1" role="button" aria-expanded="false"
+                      aria-controls="menu-item-1">
+                      Nos véhicules
+                      <span class="pull-right"><i class="fa fa-angle-down fa-2x"></i></span>
+                    </a>
+                  </h5>
+                </div>
+                <div class="menu-body collapse show" id="menu-item-1">
+                  <ul class="list-unstyled">
+                    <li class=""><a href="Page-Deals-Filter.html">Nouvelles offres</a></li>
+                    <li class=""><a href="Page-Deals-Filter.html">Choisissez votre voiture</a></li>
+                    <li class=""><a href="Page-Deals-Filter.html">Marques disponibles</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="menu-head">
+                  <h5>
+                    <a class="no-style" data-toggle="collapse" href="#menu-item-2" role="button" aria-expanded="false"
+                      aria-controls="menu-item-2">
+                      Offres & Promotions
+                      <span class="pull-right"><i class="fa fa-angle-down fa-2x"></i></span>
+                    </a>
+                  </h5>
+                </div>
+                <div class="menu-body collapse show" id="menu-item-2">
+                  <ul class="list-unstyled">
+                    <li class=""><a href="#">Flash Deals</a></li>
+                    <li class=""><a href="#">Offres promotionnelles</a></li>
+                    <li class=""><a href="#">Financez votre véhicule</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="menu-head">
+                  <h5>
+                    <a class="no-style" data-toggle="collapse" href="#menu-item-3" role="button" aria-expanded="false"
+                      aria-controls="menu-item-3">
+                      Avantages Assafa Expo
+                      <span class="pull-right"><i class="fa fa-angle-down fa-2x"></i></span>
+                    </a>
+                  </h5>
+                </div>
+                <div class="menu-body collapse show" id="menu-item-3">
+                  <ul class="list-unstyled">
+                    <li class=""><a href="#">Garantie & Assistance</a></li>
+                    <li class=""><a href="#">Accompagnement</a></li>
+                    <li class=""><a href="#">Entretien & Maintenance</a></li>
+                    <li class=""><a href="#">Expert-Conseil</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="socials-media d-flex justify-content-between align-items-center">
+                  <p>Suivez-nous sur</p>
+                  <ul class="list-unstyled list-group-horizontal">
+                    <li class="social-item d-inline"><a href="#"><img class="img-fluid"
+                          src="../../assets/svg/facebook.svg" alt="social-media"></a></li>
+                    <li class="social-item d-inline"><a href="#"><img class="img-fluid"
+                          src="../../assets/svg/intagram.svg" alt="social-media"></a></li>
+                    <li class="social-item d-inline"><a href="#"><img class="img-fluid"
+                          src="../../assets/svg/youtube.svg" alt="social-media"></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="offset-lg-3 col-lg-4 order-1 order-lg-2">
+            <div class="row block-article-content">
+              <h4 class="upc">A la Une</h4>
+              <div class="card">
+                <picture>
+                  <source media="(max-width: 768px)" srcset="../../assets/img/citroenc3.png">
+                  <source media="(max-width: 1200px)" srcset="../../assets/img/citroenc3@2x.png">
+                  <img class="img-fluid" src="../../assets/img/citroenc3.png" srcset="../../assets/img/citroenc3@2x.png"
+                    alt="voiture">
+                </picture>
+                <div class="card-img-overlay green">
+                  <p class="card-title">Hyundai Santa</p>
+                  <small>a partir de</small>
+                  <p class="card-prix">600<sup>Dhs</sup><sub>/mois</sub></p>
+                </div>
+                <div class="card-body text-center">
+                  <p class="card-text m-0 px-2">
+                    Explorez les avantages de nos promotions conçues
+                    spécialement pour vous avant
+                  </p>
+                  <ul class="list-group list-unstyled list-group-horizontal justify-content-center">
+                    <li class="list-group-item"><span>09</span> <small>Jours</small></li>
+                    <li class="list-group-item">:</li>
+                    <li class="list-group-item"><span>13</span> <small>Heures</small></li>
+                    <li class="list-group-item">:</li>
+                    <li class="list-group-item"><span>40</span> <small>Minutes</small></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="row justify-content-center block-newsletter my-3 my-lg-5">
+              <div class="col-12 d-none d-lg-block">
+                <div class="title">
+                  <h3>Newsletter</h3>
+                </div>
+                <div class="sub-title">
+                  <p>Inscrivez-vous pour recevoir notre Newsletter</p>
+                </div>
+                <form>
+                  <div class="form-group">
+                    <div class="row">
+                      <div class="col d-flex w-100">
+                        <input type="email" class="form-control flex-fill" name="inputNewsletter"
+                          placeholder="Votre adresse courriel">
+                        <button type="submit" class="btn bg-green no-100">S'abonner</button>
+                        <small class="form-text validation text-muted"></small>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Section 1 -->
+  <section class="d-deals-f">
+    <div class="container-fluid">
+      <div class="body">
+        <div class="row">
+          <div class="group-button col-12 d-flex d-lg-none">
+            <button class="btn bg-green flex-fill" id="mobile-sorter" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">Trier par</button>
+            <div class="dropdown-menu" aria-labelledby="mobile-sorter">
+              <a class="dropdown-item" href="#">Popularité</a>
+              <a class="dropdown-item" href="#">...</a>
+              <a class="dropdown-item" href="#">...</a>
+            </div>
+            <button class="btn bg-green flex-fill filter-toggler">Filtrer<span class="number">( 3 ) </span></button>
+          </div>
+          <div class="col-12 col-lg-3 block-filter mb-5 mb-lg-0" id="block-filter">
+            <div class="col-12 block-filter-header">
+
+              <h4>
+                <a class="no-style" data-toggle="collapse" href="#filter-marques" role="button" aria-expanded="false"
+                  aria-controls="filter-marques">
+                  Filtrer <span style="color:#008F70;" class="number"> ( 1 ) </span>
+                  <span class="pull-right"></span>
+                </a>
+              </h4>
+
+              <a style="text-decoration: underline;" class="remove-all" href="#">Tout effacer </a>
+              <a class="remove" href="#">Peugeot</a>
+            </div>
+            <!-- MOTS CLES -->
+            <div class="col-12">
+              <form>
+                <div class="form-row">
+                  <div class="filter-head w-100">
+                    <label class="form-check-label h6" for="inputMotsCles">Mots clés</label>
+                  </div>
+                  <div class="filter-body w-100">
+                    <div class="form-group w-100 d-flex">
+                      <input type="text" class="form-control w-75" id="inputMotsCles" placeholder="Ds">
+                      <button type="submit" class="btn bg-green w-25">OK</button>
+                    </div>
+                    <small class="form-text validation text-muted"></small>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <!-- RECHERCHE AU TOUR DE -->
+            <div class="col-12">
+              <form>
+                <div class="form-row">
+                  <div class="filter-head w-100">
+                    <label class="form-check-label h6" for="inputVilles">Recherche autour de</label>
+                  </div>
+                  <div class="filter-body w-100">
+                    <div class="form-group w-100 d-flex">
+                      <input type="text" class="form-control w-75" id="inputVilles" placeholder="Ville">
+                      <button type="submit" class="btn bg-green w-25">OK</button>
+                    </div>
+                    <small class="form-text validation text-muted"></small>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <!-- MARQUES -->
+            <div class="col-12">
+              <div class="filter-head">
+                <h6>
+                  <a class="no-style" data-toggle="collapse" href="#filter-marques" role="button" aria-expanded="false"
+                    aria-controls="filter-marques">
+                    Marques<span style="color:#008F70;" class="number"> ( 1 ) </span>
+                    <span class="pull-right"></span>
+                  </a>
+                </h6>
+              </div>
+              <div class="filter-body collapse show" id="filter-marques">
+                <ul class="list-unstyled">
+                  <li class="">
+                    <input class="form-check-input" type="radio" name="filter-mrq" id="filter-mrq-1">
+                    <label class="form-check-label" for="filter-mrq-1">
+                      Touts
+                    </label>
+                  </li>
+                  <li class="">
+                    <input class="form-check-input" type="radio" name="filter-mrq" id="filter-mrq-1">
+                    <label class="form-check-label" for="filter-mrq-1">
+                      Peugeot
+                    </label>
+                  </li>
+                  <li class="">
+                    <input class="form-check-input" type="radio" name="filter-mrq" id="filter-mrq-2">
+                    <label class="form-check-label" for="filter-mrq-2">
+                      Citroen
+                    </label>
+                  </li>
+                  <li class="">
+                    <input class="form-check-input" type="radio" name="filter-mrq" id="filter-mrq-3" checked>
+                    <label class="form-check-label" for="filter-mrq-3">
+                      DS
+                    </label>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- MODELES -->
+            <div class="col-12">
+              <div class="filter-head">
+                <h6>
+                  <a class="no-style" data-toggle="collapse" href="#filter-modeles" role="button" aria-expanded="false"
+                    aria-controls="filter-modeles">
+                    Modèles<span class="number"></span>
+                    <span class="pull-right"></span>
+                  </a>
+                </h6>
+              </div>
+              <div class="filter-body collapse show" id="filter-modeles">
+                <ul class="list-unstyled">
+                  <li class="">
+                    <input class="form-check-input" type="radio" name="filter-mdl" id="filter-mdl-1">
+                    <label class="form-check-label" for="filter-mdl-1">
+                      Tous
+                    </label>
+                  </li>
+                  <li class="">
+                    <input class="form-check-input" type="radio" name="filter-mdl" id="filter-mdl-1">
+                    <label class="form-check-label" for="filter-mdl-1">
+                      108
+                    </label>
+                  </li>
+                  <li class="">
+                    <input class="form-check-input" type="radio" name="filter-mdl" id="filter-mdl-2">
+                    <label class="form-check-label" for="filter-mdl-2">
+                      208
+                    </label>
+                  </li>
+                  <li class="">
+                    <input class="form-check-input" type="radio" name="filter-mdl" id="filter-mdl-3">
+                    <label class="form-check-label" for="filter-mdl-3">
+                      308
+                    </label>
+                  </li>
+                  <li class="">
+                    <input class="form-check-input" type="radio" name="filter-mdl" id="filter-mdl-4">
+                    <label class="form-check-label" for="filter-mdl-4">
+                      508
+                    </label>
+                  </li>
+                  <li class="">
+                    <input class="form-check-input" type="radio" name="filter-mdl" id="filter-mdl-5">
+                    <label class="form-check-label" for="filter-mdl-5">
+                      Rifter
+                    </label>
+                  </li>
+                  <li class="">
+                    <input class="form-check-input" type="radio" name="filter-mdl" id="filter-mdl-5">
+                    <label class="form-check-label" for="filter-mdl-5">
+                      Landtrek
+                    </label>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- BOITES -->
+            <div class="col-12">
+              <div class="filter-head">
+                <h6>
+                  <a class="no-style" data-toggle="collapse" href="#filter-boites" role="button" aria-expanded="false"
+                    aria-controls="filter-boites">
+                    Boite à vitesse <span class="number"></span>
+                    <span class="pull-right"></span>
+                  </a>
+                </h6>
+              </div>
+              <div class="filter-body collapse show" id="filter-boites">
+                <ul class="list-unstyled">
+                  <li class="">
+                    <input class="form-check-input" type="radio" name="filter-bte" id="filter-bte-1">
+                    <label class="form-check-label" for="filter-bte-1">
+                      Automatique
+                    </label>
+                  </li>
+                  <li class="">
+                    <input class="form-check-input" type="radio" name="filter-bte" id="filter-bte-2">
+                    <label class="form-check-label" for="filter-bte-2">
+                      Manuelle
+                    </label>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- ENERGIES -->
+            <div class="col-12">
+              <div class="filter-head">
+                <h6>
+                  <a class="no-style" data-toggle="collapse" href="#filter-energies" role="button" aria-expanded="false"
+                    aria-controls="filter-energies">
+                    Energies<span class="number"></span>
+                    <span class="pull-right"></span>
+                  </a>
+                </h6>
+              </div>
+              <div class="filter-body collapse show" id="filter-energies">
+                <ul class="list-unstyled">
+                  <li class="">
+                    <input class="form-check-input" type="radio" name="filter-nrg" id="filter-nrg-1">
+                    <label class="form-check-label" for="filter-nrg-1">
+                      Diesel
+                    </label>
+                  </li>
+                  <li class="">
+                    <input class="form-check-input" type="radio" name="filter-nrg" id="filter-nrg-2">
+                    <label class="form-check-label" for="filter-nrg-2">
+                      Essence
+                    </label>
+                  </li>
+                  <li class="">
+                    <input class="form-check-input" type="radio" name="filter-nrg" id="filter-nrg-2">
+                    <label class="form-check-label" for="filter-nrg-2">
+                      Hybride
+                    </label>
+                  </li>
+                  <li class="">
+                    <input class="form-check-input" type="radio" name="filter-nrg" id="filter-nrg-2">
+                    <label class="form-check-label" for="filter-nrg-2">
+                      électrique
+                    </label>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Puissance -->
+            <div class="col-12">
+              <div class="filter-head">
+                <h6>
+                  <a class="no-style" data-toggle="collapse" href="#filter-energies" role="button" aria-expanded="false"
+                    aria-controls="filter-energies">
+                    Puissance fiscale<span class="number"></span>
+                    <span class="pull-right"></span>
+                  </a>
+                </h6>
+              </div>
+              <div class="filter-body collapse show" id="filter-energies">
+                <ul class="list-unstyled">
+                  <li class="">
+                    <input class="form-check-input" type="radio" name="filter-nrg" id="filter-nrg-1">
+                    <label class="form-check-label" for="filter-nrg-1">
+                      Inférieure à 8 cv
+                    </label>
+                  </li>
+                  <li class="">
+                    <input class="form-check-input" type="radio" name="filter-nrg" id="filter-nrg-2">
+                    <label class="form-check-label" for="filter-nrg-2">
+                      8 à 10 cv
+                    </label>
+                  </li>
+                  <li class="">
+                    <input class="form-check-input" type="radio" name="filter-nrg" id="filter-nrg-2">
+                    <label class="form-check-label" for="filter-nrg-2">
+                      11 à 14 cv
+                    </label>
+                  </li>
+                  <li class="">
+                    <input class="form-check-input" type="radio" name="filter-nrg" id="filter-nrg-2">
+                    <label class="form-check-label" for="filter-nrg-2">
+                      Supérieure ou égale à 15 cv
+                    </label>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Budget mentualité -->
+
+            <div class="col-12">
+              <div class="filter-head">
+                <h6>
+                  <a class="no-style" data-toggle="collapse" href="#filter-energies" role="button" aria-expanded="false"
+                    aria-controls="filter-energies">
+                    Budget mentualité<span class="number"></span>
+                    <span class="pull-right"></span>
+                  </a>
+                </h6>
+              </div>
+              <div class="filter-body collapse show" id="filter-energies">
+                <ul class="list-unstyled">
+                  <li class="">
+                    <p> 0 dh </p>
+                    <label class="form-check-label" for="filter-nrg-1">
+                    </label>
+                    <input type="range" min="1" max="100" value="50" class="slider" id="myRange"
+                      style="margin-left: 93px;height: 1px;">
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- Kilométrage -->
+            <div class="col-12">
+              <div class="filter-head">
+                <h6>
+                  <a class="no-style" data-toggle="collapse" href="#filter-energies" role="button" aria-expanded="false"
+                    aria-controls="filter-energies">
+                    Kilométrage<span class="number"></span>
+                    <span class="pull-right"></span>
+                  </a>
+                </h6>
+              </div>
+              <div class="filter-body collapse show" id="filter-energies">
+                <ul class="list-unstyled">
+                  <li class="">
+                    <p> 28 000 KM </p>
+                    <label class="form-check-label" for="filter-nrg-1">
+
+                    </label>
+                    <input type="range" min="1" max="100" value="50" class="slider" id="myRange"
+                      style="margin-left: 93px;height: 1px;">
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- TYPE DE VOITURE -->
+            <div class="col-12">
+              <div class="filter-head">
+                <h6>
+                  <a class="no-style" data-toggle="collapse" href="#filter-type-voiture" role="button"
+                    aria-expanded="false" aria-controls="filter-type-voiture">
+                    Type voiture<span class="number"></span>
+                    <span class="pull-right"></span>
+                  </a>
+                </h6>
+              </div>
+              <div class="filter-body collapse show" id="filter-type-voiture">
+                <ul class="list-unstyled list-group list-group-horizontal">
+                  <li class="">
+                    <input class="form-check-input" type="radio" name="filter-type" id="filter-type-1">
+                    <div class="card text-center">
+                      <label class="form-check-label" for="filter-type-1">
+                        <img class="img-fluid" src="../../assets/svg/economiques.svg" alt="economiques">
+                        <small class="card-body p-0">eco</small>
+                      </label>
+                    </div>
+                  </li>
+                  <li class="">
+                    <input class="form-check-input" type="radio" name="filter-type" id="filter-type-2">
+                    <div class="card text-center">
+                      <label class="form-check-label" for="filter-type-2">
+                        <img class="img-fluid" src="../../assets/svg/familials.svg" alt="familials">
+                        <small class="card-body p-0">familials</small>
+                      </label>
+                    </div>
+                  </li>
+                  <li class="">
+                    <input class="form-check-input" type="radio" name="filter-type" id="filter-type-3">
+                    <div class="card text-center">
+                      <label class="form-check-label" for="filter-type-3">
+                        <img class="img-fluid" src="../../assets/svg/sportives.svg" alt="sportives">
+                        <small class="card-body p-0">sportives</small>
+                      </label>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12 d-flex d-lg-none text-center">
+              <a href="#" class="bg-green show-result">Afficher les résultat</a>
+            </div>
+          </div>
+          <div class="col-12 col-lg-9 block-resultat">
+            <div class="block-sort d-flex justify-content-between mb-4">
+              <div class="title">
+                <h1 class="h4 green"><span class="number">3</span> Résultats</h1>
+                <p>Correspondant à vos critères</p>
+              </div>
+              <div class="sub-title">
+              </div>
+              <div class="sort-group d-none d-lg-flex">
+                <label class="form-check-label" for="inputSort">
+                  Trier par :
+                </label>
+                <select id="inputSort" class="form-control">
+                  <option value="popularite" selected>Popularité</option>
+                  <option value="">...</option>
+                </select>
+              </div>
+            </div>
+            <div class="card-deck row ml-4">
+              <div class="col-12 col-lg-6 mb-9">
+                <div class="card m-0">
+                  <a href="#">
+                    <img class="card-img-top pt-3" src="../../assets/img/ds3@2x.png" alt="voiture">
+                  </a>
+                  <div class="card-body">
+                    <h5 class="card-title m-0">DS 3 CROSSBACK</h5>
+                    <p class="card-text mb-2"><small>Essence / Automatique / Sportive</small></p>
+                    <p class="card-text mb-2"><small>C.V : 7 / Kilométrage : 27 000 </small></p>
+                    <div class="block-prix">
+                      <small class="card-text">A partir</small>
+                      <p class="card-text card-prix green">800Dhs</p>
+                    </div>
+                  </div>
+                  <div class="card-footer">
+                    <span class="option opt-1"></span>
+                    <span class="option opt-2"></span>
+                    <span class="option opt-3"></span>
+                    <span class="option opt-4"></span>
+                    <span class="option opt-5"></span>
+                    <span class="flex-fill text-right"><a href="#" class="btn green">Plus détails</a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-6 mb-4">
+                <div class="card m-0">
+                  <a href="#">
+                    <img class="card-img-top pt-3" src="../../assets/img/ds7@2x.png" alt="voiture">
+                  </a>
+                  <div class="card-body">
+                    <h5 class="card-title m-0">DS 7 CROSSBACK</h5>
+                    <p class="card-text mb-2"><small>Essence / Automatique / Sportive</small></p>
+                    <p class="card-text mb-2"><small>C.V : 7 / Kilométrage : 27 000 </small></p>
+                    <div class="block-prix">
+                      <small class="card-text">A partir</small>
+                      <p class="card-text card-prix green">900Dhs</p>
+                    </div>
+                  </div>
+                  <div class="card-footer">
+                    <span class="option opt-1"></span>
+                    <span class="option opt-2"></span>
+                    <span class="option opt-3"></span>
+                    <span class="option opt-4"></span>
+                    <span class="option opt-5"></span>
+                    <span class="flex-fill text-right"><a href="#" class="btn green">Plus détails</a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-6 mb-4">
+                <div class="card m-0">
+                  <a href="#">
+                    <img class="card-img-top pt-3" src="../../assets/img/ds9@2x.png" alt="voiture">
+                  </a>
+                  <div class="card-body">
+                    <h5 class="card-title m-0">DS 9 CROSSBACK</h5>
+                    <p class="card-text mb-2"><small>Essence / Automatique / Sportive</small></p>
+                    <p class="card-text mb-2"><small>C.V : 7 / Kilométrage : 27 000 </small></p>
+                    <div class="block-prix">
+                      <small class="card-text">A partir</small>
+                      <p class="card-text card-prix green">1200Dhs</p>
+                    </div>
+                  </div>
+                  <div class="card-footer">
+                    <span class="option opt-1"></span>
+                    <span class="option opt-2"></span>
+                    <span class="option opt-3"></span>
+                    <span class="option opt-4"></span>
+                    <span class="option opt-5"></span>
+                    <span class="flex-fill text-right"><a href="#" class="btn green">Plus détails</a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-6 mb-4">
+                <div class="card m-0">
+                  <a href="#">
+                    <img class="card-img-top pt-3" src="../../assets/img/ds9@2x.png" alt="voiture">
+                  </a>
+                  <div class="card-body">
+                    <h5 class="card-title m-0">DS 9 CROSSBACK</h5>
+                    <p class="card-text mb-2"><small>Essence / Automatique / Sportive</small></p>
+                    <p class="card-text mb-2"><small>C.V : 7 / Kilométrage : 27 000 </small></p>
+                    <div class="block-prix">
+                      <small class="card-text">A partir</small>
+                      <p class="card-text card-prix green">1200Dhs</p>
+                    </div>
+                  </div>
+                  <div class="card-footer">
+                    <span class="option opt-1"></span>
+                    <span class="option opt-2"></span>
+                    <span class="option opt-3"></span>
+                    <span class="option opt-4"></span>
+                    <span class="option opt-5"></span>
+                    <span class="flex-fill text-right"><a href="#" class="btn green">Plus détails</a></span>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="fixed-right d-none d-lg-block">
+            <a href="#" class="btn">chat</a>
+            <a href="#" class="btn">calculators</a>
+          </div>
+        </div>
+        <div class="row justify-content-center block-adv d-none">
+          <div class="col-lg-12 text-center mb-4">
+            <h5>Nos avantages</h5>
+          </div>
+          <div class="col-6 col-lg-2">
+            <div class="card text-center">
+              <img class="img-fluid" src="../../assets/svg/garantie.svg" alt="Garantie">
+              <span class="card-body p-0">Garantie</span>
+            </div>
+          </div>
+          <div class="col-6 col-lg-2">
+            <div class="card text-center">
+              <img class="img-fluid" src="../../assets/svg/accompagnement.svg" alt="Accompagnement">
+              <span class="card-body p-0">Accompagnement</span>
+            </div>
+          </div>
+          <div class="col-6 col-lg-2">
+            <div class="card text-center">
+              <img class="img-fluid" src="../../assets/svg/entretien.svg" alt="Entretien">
+              <span class="card-body p-0">Entretien</span>
+            </div>
+          </div>
+          <div class="col-6 col-lg-2">
+            <div class="card text-center">
+              <img class="img-fluid" src="../../assets/svg/conseil.svg" alt="Conseil">
+              <span class="card-body p-0">Conseil</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container-fluid">
+      <div class="body">
+        <div class="row">
+          <div class="col-12 col-lg-5 mb-5 mb-lg-0">
+            <div class="footer-head">
+              <div class="footer-logo">
+                <img src="../../assets/svg/footer-logo.svg" class="img-fluid" alt="logo">
+              </div>
+            </div>
+            <div class="footer-body text-center text-lg-left">
+              <p>Le site marocain des bons plans auto</p>
+            </div>
+          </div>
+          <div class="col-12 col-lg-2">
+            <div class="footer-head">
+              <h4>
+                <a class="no-style" data-toggle="collapse" href="#footer-item-1" role="button" aria-expanded="false"
+                  aria-controls="footer-item-1">
+                  Nos véhicules
+                  <span class="pull-right d-block d-lg-none"><i class="fa fa-angle-down fa-2x"></i></span>
+                </a>
+              </h4>
+            </div>
+            <div class="footer-body collapse show" id="footer-item-1">
+              <ul class="list-unstyled">
+                <li class=""><a href="#">Nouvelles offres</a></li>
+                <li class=""><a href="#">Choisissez votre voiture</a></li>
+                <li class=""><a href="#">Marques disponibles</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-lg-2">
+            <div class="footer-head">
+              <h4>
+                <a class="no-style" data-toggle="collapse" href="#footer-item-2" role="button" aria-expanded="false"
+                  aria-controls="footer-item-2">
+                  Offres & Promotions
+                  <span class="pull-right d-block d-lg-none"><i class="fa fa-angle-down fa-2x"></i></span>
+                </a>
+              </h4>
+            </div>
+            <div class="footer-body collapse show" id="footer-item-2">
+              <ul class="list-unstyled">
+                <li class=""><a href="#">Flash Deals</a></li>
+                <li class=""><a href="#">Offres promotionnelles</a></li>
+                <li class=""><a href="#">Financez votre véhicule</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-lg-2">
+            <div class="footer-head">
+              <h4>
+                <a class="no-style" data-toggle="collapse" href="#footer-item-3" role="button" aria-expanded="false"
+                  aria-controls="footer-item-3">
+                  Avantages Assafa Expo
+                  <span class="pull-right d-block d-lg-none"><i class="fa fa-angle-down fa-2x"></i></span>
+                </a>
+              </h4>
+            </div>
+            <div class="footer-body collapse show" id="footer-item-3">
+              <ul class="list-unstyled">
+                <li class=""><a href="#">Garantie & Assistance</a></li>
+                <li class=""><a href="#">Accompagnement</a></li>
+                <li class=""><a href="#">Entretien & Maintenance</a></li>
+                <li class=""><a href="#">Expert-Conseil</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-lg-1">
+            <div class="footer-head text-lg-right">
+              <h4>
+                <a class="no-style" data-toggle="collapse" href="#footer-item-4" role="button" aria-expanded="false">
+                  FAQ
+                </a>
+              </h4>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="row align-items-center py-4">
+          <div class="col-12 col-lg-4 order-2">
+            <p class="copyright m-0 text-center text-lg-left"><b>Tous droits réservés © Assafa Expo - Mentions
+                légales</b></p>
+          </div>
+          <div class="col-12 col-lg-8 footer-menu order-lg-2 mb-3 m-lg-0 p-0">
+            <ul class="list-group list-unstyled d-block text-center float-lg-right">
+              <li class="list-group-item"><a href="Page-Contact.html">Contact</a></li>
+              <li class="list-group-item"><a href="#">Catalogue</a></li>
+              <li class="list-group-item"><a href="#">Inscription Newsletter</a></li>
+              <li class="list-group-item"><a href="#">Mentions légales</a></li>
+              <li class="list-group-item"><a href="#">Plan du site</a></li>
+              <li class="list-group-item"><a href="#">Actualité</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+  </script>
+  <script src="../../assets/js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,446 @@
+@font-face {
+  font-family: 'verdana_Regular';
+  src: url("fonts/verdana/verdana.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.asex .body .row {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 1rem;
+}
+
+@media screen and (min-width: 1025px) {
+  .asex .body .row {
+    padding: 0 5rem;
+  }
+}
+
+.asex .body .row .title {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.asex .body .row .title .green {
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .asex .body .row .title {
+    font-size: 12px;
+    margin-bottom: 2rem;
+  }
+  .asex .body .row .title .green {
+    font-size: 22px;
+  }
+}
+
+.asex .body .row .col-12 .subtitle {
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-bottom: 1rem;
+}
+
+.asex .body .row .col-12 p {
+  font-size: 14px;
+}
+
+@media screen and (min-width: 992px) {
+  .asex .body .row .col-12 img {
+    max-width: 440px;
+  }
+}
+
+.asex .body .row .col-12 ul {
+  list-style: none;
+}
+
+.asex .body .row .col-12 ul li {
+  font-size: 14px;
+}
+
+.asex .body .row .col-12 ul li::before {
+  content: "\2022";
+  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #008F70;
+  /* Change the color */
+  font-weight: bold;
+  /* If you want it to be bold */
+  display: inline-block;
+  /* Needed to add space between the bullet and the text */
+  width: 1.2em;
+  /* Also needed for space (tweak if needed) */
+  margin-left: -0.7em;
+  font-size: 23px;
+  /* Also needed for space (tweak if needed) */
+}
+
+@media screen and (max-width: 768px) {
+  .asex .body .row .col-12 {
+    padding: 0;
+  }
+  .asex .body .row .col-12 .subtitle {
+    font-size: 15px;
+  }
+  .asex .body .row .col-12 p {
+    font-size: 12px !important;
+  }
+  .asex .body .row .col-12 li {
+    font-size: 12px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .asex .body .row .image {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .asex .body .row .image img {
+    margin: 0;
+  }
+}
+
+.asex .row-video, .asex .engagement {
+  background-color: #F8F8F8;
+  max-width: 100%;
+  padding: 5rem 0;
+  margin-bottom: 1rem;
+  position: relative;
+  top: 3rem;
+  z-index: -1;
+}
+
+.asex .row-video .col-12, .asex .engagement .col-12 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.asex .row-video .col-12 .h4, .asex .engagement .col-12 .h4 {
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 992px) {
+  .asex .row-video .col-12 img, .asex .engagement .col-12 img {
+    max-width: 900px;
+  }
+}
+
+.asex .row-video .col-12 figure figcaption, .asex .engagement .col-12 figure figcaption {
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 1rem 0;
+  color: #008F70;
+}
+
+@media screen and (max-width: 768px) {
+  .asex .row-video .col-12 p, .asex .engagement .col-12 p {
+    font-size: 10px;
+  }
+}
+
+.asex .btn-asex {
+  color: #707070;
+  background-color: #F8F8F8;
+  padding: 10px 40px;
+  font-size: 14px;
+  border: 1px solid #707070;
+  text-align: center;
+}
+
+.asex .btn-asex:hover {
+  color: #F8F8F8;
+  background-color: #008F70;
+}
+
+footer {
+  background-image: url("../img/bg.svg");
+}
+
+@media screen and (max-width: 992px) {
+  footer footer {
+    background-position-x: -14rem;
+    background-position-y: 0rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .marques .col-12:nth-child(even) {
+    margin-top: 3rem;
+  }
+}
+
+.marques .card-header {
+  background-color: #008F70;
+  color: white;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+.marques .btn-asex::after {
+  content: none !important;
+}
+
+.conseil .col-12.col-lg-6.order-1.order-lg-2.image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#actualities .body .row {
+  padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+  #actualities .body .row .title {
+    margin-bottom: 0 !important;
+  }
+}
+
+#actualities .container {
+  max-width: 100%;
+  width: 100%;
+}
+
+#actualities .container .row {
+  -ms-flex-wrap: wrap !important;
+      flex-wrap: wrap !important;
+  -webkit-box-pack: baseline;
+      -ms-flex-pack: baseline;
+          justify-content: baseline;
+}
+
+#actualities .container .row .card {
+  text-align: left;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+#actualities .container .row .card .card-body {
+  padding: 10px;
+}
+
+#actualities .container .row .card .card-body .card-img-overlay {
+  position: absolute;
+  top: 48%;
+  text-transform: uppercase;
+  padding: 0;
+}
+
+#actualities .container .row .card .card-body .card-img-overlay p {
+  font-size: 18px;
+  color: white;
+  background-color: rgba(0, 143, 112, 0.9);
+  padding: 10px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 992px) {
+  #actualities .container .row .card .card-body .card-img-overlay {
+    top: 74%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #actualities .container .row .card .card-body .card-img-overlay {
+    top: 49%;
+  }
+  #actualities .container .row .card .card-body .card-img-overlay p {
+    font-size: 13px;
+  }
+}
+
+#actualities .container .row .card .card-body .card-link {
+  color: #008F70;
+  font-weight: bold;
+}
+
+#actualities .container .row .card .card-body .card-link:after {
+  content: url("../img/arrow.svg");
+  color: #008F70 !important;
+  vertical-align: middle;
+  display: inline-block;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  padding-left: 30px;
+}
+
+@media screen and (max-width: 992px) {
+  #actualities .container .row .card {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #actualities .container .row {
+    width: 100%;
+    padding-left: 5rem;
+    padding-right: 2rem;
+  }
+}
+
+#actualities .container .btn-asex::after {
+  content: none !important;
+}
+
+#infos #asex-infos .asex-accordion .card {
+  border-radius: 0;
+}
+
+#infos #asex-infos .asex-accordion .card .card-header {
+  border: 0;
+}
+
+#infos #asex-infos .asex-accordion .card .card-header:first-child {
+  border-radius: 0;
+}
+
+#infos #asex-infos .asex-accordion .card .card-header h5 .btn {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  outline: none;
+}
+
+#infos #asex-infos .asex-accordion .card .card-header h5 .btn:after {
+  content: url("../img/minus.svg");
+  vertical-align: middle;
+  display: inline-block;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  padding-right: 30px;
+  position: absolute;
+  right: 0;
+}
+
+#infos #asex-infos .asex-accordion .card .card-header h5 button.collapsed:after {
+  content: url("../img/plus.svg") !important;
+  vertical-align: middle;
+  display: inline-block;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  padding-right: 30px;
+  position: absolute;
+  right: 0;
+}
+
+#infos #asex-infos .asex-accordion .card #appContent .row {
+  padding: 1.5rem 0;
+  border-bottom: 1px solid #dcdcdc;
+}
+
+#infos #asex-infos .asex-accordion .card #appContent p {
+  font-size: 14px;
+}
+
+#infos #asex-infos .asex-accordion .card #vignetteContent p {
+  font-size: 14px;
+}
+
+#infos #asex-infos .asex-accordion .card #vignetteContent table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+#infos #asex-infos .asex-accordion .card #vignetteContent table tr th {
+  background: #D9D9D9;
+}
+
+#infos #asex-infos .asex-accordion .card #vignetteContent table tr td {
+  background-color: #F8F5F5;
+  white-space: nowrap;
+  font-size: 13px;
+  border: 5px solid white !important;
+  border-left: none !important;
+  padding: 1rem 2.5rem;
+}
+
+#infos #asex-infos .asex-accordion .card #vignetteContent table tr td:first-child {
+  background-color: #D9D9D9;
+  font-weight: bold;
+}
+
+#infos #asex-infos .asex-accordion .card #vignetteContent table tr:first-child {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  #infos .container-fluid {
+    padding: 0;
+    margin: 0;
+  }
+  #infos .container-fluid .container {
+    padding: 0;
+  }
+  #infos .container-fluid .container .card {
+    border: none;
+  }
+  #infos .container-fluid .container .card .card-body {
+    padding-top: 10px;
+  }
+  #infos .container-fluid .container .card .card-body .pr-5 {
+    padding: 0;
+  }
+  #infos .container-fluid .container .card .img-fluid {
+    max-width: 400px;
+  }
+}
+
+@media screen and (max-width: 768px) and (max-width: 768px) {
+  #infos .container-fluid .container .card .img-fluid {
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #infos .container-fluid .container .card #appContent .row:last-child {
+    border-bottom: none !important;
+  }
+  #infos .container-fluid .container .card #appContent .card-text {
+    padding: 0 1rem !important;
+  }
+  #infos .container-fluid .container .card #vignetteContent .card-text {
+    padding: 0 .5rem !important;
+  }
+  #infos .container-fluid .container .card #vignetteContent .tarif {
+    overflow-x: scroll !important;
+    max-width: 95vw;
+  }
+  #infos .mt-5:first-child {
+    margin-top: 0 !important;
+  }
+  #infos p {
+    font-size: 14px !important;
+  }
+}
+/*# sourceMappingURL=asex.css.map */

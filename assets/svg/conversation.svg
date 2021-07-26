@@ -1,0 +1,42 @@
+<svg id="conversation" xmlns="http://www.w3.org/2000/svg" width="43.327" height="43.327" viewBox="0 0 43.327 43.327">
+  <g id="Groupe_39" data-name="Groupe 39" transform="translate(0 14.724)">
+    <g id="Groupe_38" data-name="Groupe 38">
+      <path id="Tracé_67" data-name="Tracé 67" d="M29.279,186.27a.846.846,0,0,0-.846.846v5.839a4.236,4.236,0,0,1-4.231,4.231H15.066a.846.846,0,0,0-.846.846v1.682l-2.02-2.02a.846.846,0,0,0-.776-.508h-5.5a4.236,4.236,0,0,1-4.231-4.231V179.924a4.236,4.236,0,0,1,4.231-4.231H14.47a.846.846,0,1,0,0-1.692H5.924A5.93,5.93,0,0,0,0,179.924v13.032a5.93,5.93,0,0,0,5.924,5.924h5.065l3.476,3.476a.846.846,0,0,0,1.445-.6l0-2.878H24.2a5.93,5.93,0,0,0,5.924-5.924v-5.839A.846.846,0,0,0,29.279,186.27Z" transform="translate(0 -174)" fill="#fff"/>
+    </g>
+  </g>
+  <g id="Groupe_41" data-name="Groupe 41" transform="translate(16.586)">
+    <g id="Groupe_40" data-name="Groupe 40">
+      <path id="Tracé_68" data-name="Tracé 68" d="M210.441,0H208.3a12.3,12.3,0,0,0,0,24.6h2.142a12.323,12.323,0,0,0,3.122-.4l3.164,3.162a.846.846,0,0,0,1.444-.6v-4.9A12.417,12.417,0,0,0,221.4,17.88a12.167,12.167,0,0,0,1.337-5.581A12.313,12.313,0,0,0,210.441,0Zm6.374,20.778a.846.846,0,0,0-.337.676V24.72l-2.071-2.07a.846.846,0,0,0-.847-.21,10.61,10.61,0,0,1-3.12.466H208.3a10.607,10.607,0,1,1,0-21.214h2.142a10.607,10.607,0,0,1,6.374,19.085Z" transform="translate(-196)" fill="#fff"/>
+    </g>
+  </g>
+  <g id="Groupe_43" data-name="Groupe 43" transform="translate(26.611 5.929)">
+    <g id="Groupe_42" data-name="Groupe 42">
+      <path id="Tracé_69" data-name="Tracé 69" d="M321.619,73.394a3.591,3.591,0,0,0-3.322-3.322,3.555,3.555,0,0,0-2.7.955,3.6,3.6,0,0,0-1.138,2.619.846.846,0,0,0,1.692,0,1.89,1.89,0,0,1,2.026-1.885,1.891,1.891,0,0,1,.28,3.73,1.6,1.6,0,0,0-1.262,1.57v2.033a.846.846,0,1,0,1.692,0V77.128A3.564,3.564,0,0,0,321.619,73.394Z" transform="translate(-314.462 -70.063)" fill="#fff"/>
+    </g>
+  </g>
+  <g id="Groupe_45" data-name="Groupe 45" transform="translate(29.347 17.46)">
+    <g id="Groupe_44" data-name="Groupe 44">
+      <path id="Tracé_70" data-name="Tracé 70" d="M348.245,206.578a.847.847,0,1,0,.248.6A.853.853,0,0,0,348.245,206.578Z" transform="translate(-346.8 -206.33)" fill="#fff"/>
+    </g>
+  </g>
+  <g id="Groupe_47" data-name="Groupe 47" transform="translate(4.57 26.233)">
+    <g id="Groupe_46" data-name="Groupe 46">
+      <path id="Tracé_71" data-name="Tracé 71" d="M72.7,310H54.846a.846.846,0,1,0,0,1.692H72.7a.846.846,0,0,0,0-1.692Z" transform="translate(-54 -310)" fill="#fff"/>
+    </g>
+  </g>
+  <g id="Groupe_49" data-name="Groupe 49" transform="translate(22.425 30.972)">
+    <g id="Groupe_48" data-name="Groupe 48">
+      <path id="Tracé_72" data-name="Tracé 72" d="M266.444,366.248a.846.846,0,1,0,.248.6A.852.852,0,0,0,266.444,366.248Z" transform="translate(-265 -366)" fill="#fff"/>
+    </g>
+  </g>
+  <g id="Groupe_51" data-name="Groupe 51" transform="translate(4.57 30.972)">
+    <g id="Groupe_50" data-name="Groupe 50">
+      <path id="Tracé_73" data-name="Tracé 73" d="M69.373,366H54.846a.846.846,0,1,0,0,1.692H69.373a.846.846,0,0,0,0-1.692Z" transform="translate(-54 -366)" fill="#fff"/>
+    </g>
+  </g>
+  <g id="Groupe_53" data-name="Groupe 53" transform="translate(4.57 21.494)">
+    <g id="Groupe_52" data-name="Groupe 52">
+      <path id="Tracé_74" data-name="Tracé 74" d="M67.2,254H54.846a.846.846,0,1,0,0,1.692H67.2a.846.846,0,1,0,0-1.692Z" transform="translate(-54 -254)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
