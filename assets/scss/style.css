@@ -889,7 +889,9 @@ body h1, body .h1 {
     font-size: 1.76rem;
   }
 }
-
+#Newsletter{
+  font-size: 1.25rem
+}
 body input:not([type="radio"]), body select, body button:not(#menu-toggle) {
   border-color: #707070 !important;
   border-radius: unset !important;
@@ -2012,7 +2014,7 @@ body.formtype section.formtype .block-link {
     margin-left: 180px;
   }
   #offset{
-    left: 263px;
+    left: 183px;
   }
 }
 
