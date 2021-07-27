@@ -203,13 +203,7 @@ section.header .block-menu-deals .block-menu {
     width: 17px;
   }
 }
-@media screen and (min-width: 781px) and (max-width: 992px) {
-  #lang-dropdown1{
-    margin-top: -8px;
-  }
- 
 
-}
 #languge {
   color: #008F70;
 }
@@ -449,7 +443,7 @@ section.header .block-menu-deals .block-deals li a {
 section.header .block-menu-deals .block-deals li:last-child a#lang-dropdown1 {
   content: url("../svg/globe.svg");
   width: 31px;
-  margin-right: 40px;
+  margin-right: 28px;
 }
 section.header .block-menu-deals .block-deals li:last-child a#lang-dropdown {
   content: url("../images/globe-lang.svg");
@@ -551,8 +545,16 @@ section.header .menu-container .body {
 
 @media screen and (max-width: 992px) {
   section.header .menu-container {
-    padding: 10rem 10%;
+    padding: 0rem 10%;
   }
+  section.header .block-menu-deals .block-menu button span.menu-icon {
+    -webkit-transform: scale(2);
+            transform: scale(2);
+    top: 4px;
+    left :-10px
+  }
+
+  
 }
 
 section.header .menu-container.show {
@@ -899,7 +901,7 @@ body h1, body .h1 {
 body input:not([type="radio"]), body select, body button:not(#menu-toggle) {
   border-color: #707070 !important;
   border-radius: unset !important;
-
+  margin-left: 3px;
 }
 
 @media screen and (min-width: 1920px) {
@@ -1598,19 +1600,23 @@ body section.d-deals-f {
   margin: 5rem 0;
 }
 
-@media screen and (max-width: 992px) {
-  body section.d-deals-f {
-    margin: 2rem 0 !important;
-  }
-}
-
 body section.d-deals-f .fixed-right {
   top: 300px;
 }
 
+@media screen and (max-width: 992px) {
+  body section.d-deals-f {
+    margin: 2rem 0 !important;
+  }
+  body section.d-deals-f .fixed-right {
+    top: 180px;
+  }
+}
+
+
 body section.d-deals-f .group-button {
   margin-bottom: 2rem;
-  margin-top: 44px;
+  margin-top: 55px;
 
 }
 
