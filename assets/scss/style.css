@@ -320,6 +320,7 @@ section.header .block-menu-deals .block-menu button span.menu-icon:after {
   width: 50%; /* Width of the outside container */
 }
 
+
 .slider {
   -webkit-appearance: none;  
   appearance: none;
@@ -377,12 +378,15 @@ section.header .block-menu-deals .block-menu button span.menu-icon.close-icon:af
   transition: all ease-in-out .1s;
   
 }
+.block-sort .title{
+ margin-left: 38px;
+}
 
 @media screen and (min-width: 1920px) {
   section.header .block-menu-deals .block-menu button span.menu-icon {
     -webkit-transform: scale(2);
             transform: scale(2);
-    top: 9px;
+    top: 11px;
     left :-10px
   }
   section.header .block-menu-deals .block-menu button span.menu-icon:before {
@@ -704,7 +708,8 @@ footer {
 
 @media screen and (max-width: 992px) {
   footer {
-    background-position-y: 0rem;
+    /* background-position-y: -0rem; */
+    padding-top: 25.3%;
   }
 }
 
@@ -1356,6 +1361,7 @@ body section.d-deals .green-border {
   border-left: 5px solid #008F70;
   height: 150px;
   padding-left: 10px;
+  
 }
 
 @media screen and (min-width: 1920px) {
@@ -1529,6 +1535,9 @@ body section.d-deals .deals-form {
   body section.d-deals .deals-form {
     padding: 7.5rem 8%;
   }
+  body section.d-deals .green-border {
+margin-top: 50px;
+  }
 }
 body section.d-deals .green-border {
   border-left: 9px solid #008F70;
@@ -1601,6 +1610,8 @@ body section.d-deals-f .fixed-right {
 
 body section.d-deals-f .group-button {
   margin-bottom: 2rem;
+  margin-top: 44px;
+
 }
 
 body section.d-deals-f .group-button button {
@@ -2125,4 +2136,10 @@ margin-top: 40px  !important;
     padding: 1rem 10%;
   }
   
+}
+
+/* button  page deals-filter */
+#mobile-sorter{
+
+height: 58px;
 }
