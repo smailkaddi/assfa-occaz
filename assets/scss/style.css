@@ -27,6 +27,20 @@ button.bg-dark-green:hover {
   color: white;
 }
 
+.table-desktop{
+  /* display: block; */
+  width: 410px !important;
+}
+.table thead th {
+  border-bottom: 2px solid #ffffff;
+}
+@media screen and (min-width: 992px) {
+  .table-mobile, .info-table-mobile{
+    display: none;
+  }
+ 
+  
+}
 @media screen and (max-width: 992px) {
   .carousel-container {
     display: none;
@@ -38,7 +52,6 @@ button.bg-dark-green:hover {
     margin-top: 40px !important;
 
   }
-
   .visi {
     visibility: hidden !important;
   }
@@ -205,7 +218,20 @@ section.header .block-menu-deals .block-menu {
   section.header .block-menu-deals .block-menu {
     top: 9px;
   }
+ 
+  .table td,.table th{
+    font-size: 12.6px;
+  }
+  body section.d-deals .green-border {
+    border-left: 9px solid #008F70;
+    height: auto;
+    padding-left: 45px;
+    margin-top: 4rem;
+    height: 17rem;
 }
+  
+}
+
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
   section.header .block-menu-deals .block-menu {
@@ -239,7 +265,6 @@ section.header .block-menu-deals .block-menu button span.menu-icon {
 
 .table {
   border: 3px solid white;
-  width: 56%;
   margin-top: 12px;
   margin-left: 0px;
 }
@@ -454,6 +479,9 @@ section.header .block-menu-deals .block-deals li a {
     border-left: 1px solid white;
     line-height: .8;
   }
+  .d-block {
+    margin-top: 4px !important;
+}
 }
 
 section.header .block-menu-deals .block-deals li:last-child a#lang-dropdown1 {
@@ -1076,6 +1104,7 @@ body section .container-fluid a.btn:after {
 body section .container-fluid a.btn.bg-green {
   border-color: white;
   font-weight: bold;
+  width: 400px;
 }
 
 body section .container-fluid a.btn.bg-green:hover {
@@ -1169,7 +1198,9 @@ body section.accueil .body .carousel-indicators {
   body section.accueil .body .carousel-indicators {
     left: 91%;
   }
+ 
 }
+
 
 body section.accueil .body .carousel-indicators li {
   height: 10px;
@@ -1576,12 +1607,12 @@ body section.d-deals .block-adv .card {
 }
 
 body section.d-deals .block-adv .card img {
-  height: 50%;
+  height: 30%;
 }
 
 @media screen and (max-width: 992px) {
   body section.d-deals .block-adv .card img {
-    height: 50%
+    height: 25%
   }
 
 }
@@ -1589,6 +1620,7 @@ body section.d-deals .block-adv .card img {
 @media screen and (min-width: 1920px) {
   body section.d-deals .block-adv .card img {
     height: 50%;
+    
   }
 }
 
