@@ -946,13 +946,11 @@ body .h1 {
 body input:not([type="radio"]),
 body select,
 body button:not(#menu-toggle) {
-  border-color: #707070 !important;
+  border-color: #fdfdfd !important;
   border-radius: unset !important;
-  margin-left: 3px;
+
 }
-
 @media screen and (min-width: 1920px) {
-
   body input:not([type="radio"]),
   body select,
   body button:not(#menu-toggle) {
@@ -2075,6 +2073,18 @@ body section.d-deals-f .block-resultat .card-deck .card .card-footer .option.opt
     width: 35px;
   }
 }
+/* @media screen and (max-width: 992px) {
+    
+  #foter-filter{
+    display: block;
+  }
+}
+@media screen and (min-width: 992px) {
+    
+  #foter-filter{
+    display: none;
+  }
+} */
 
 body section.d-deals-f .block-resultat .card-deck .card .card-footer a {
   border: unset;
@@ -2097,6 +2107,8 @@ body section.d-deals-f .block-resultat .card-deck .card .card-footer a:after {
     margin-top: unset;
   }
 
+  }
+
   body section.d-deals-f .block-resultat .card-deck .card .card-footer a:after {
     -webkit-transform: scale(1);
     transform: scale(1);
@@ -2112,6 +2124,10 @@ body.formtype section.formtype {
   body.formtype section.formtype {
     margin: 2rem 0 !important;
   }
+  .foter-filter{
+    display: block;
+  }
+ 
 }
 
 body.formtype section.formtype .block-link {
