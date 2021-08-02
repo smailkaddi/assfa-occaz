@@ -8,6 +8,7 @@ $(document).ready(function() {
     $("#menu-toggle").click(function() {
         if(showMenu == true) {
             $(".menu-container").addClass("show");
+            $(".menu-iconhome").addClass("close-icon");
             $(".menu-icon").addClass("close-icon");
             $("#fixed-header").addClass("menu-shwd");
             $("#fixed-logo").addClass("fixed-logo");
@@ -18,6 +19,7 @@ $(document).ready(function() {
           
         }else {
             $(".menu-container").removeClass("show");
+            $(".menu-iconhome").removeClass("close-icon");
             $(".menu-icon").removeClass("close-icon");
             $("#fixed-header").removeClass("menu-shwd");
             $("#fixed-logo").removeClass("fixed-logo");
@@ -67,18 +69,34 @@ $(document).ready(function() {
         // alert(lien);
     })
 
-    // $("#menu-toggle").click(function () {
-    //     $("nav").toggleClass("bg-dark");
-    //     })
-
-        
-        // $("#menu-toggle").click(function () {
-        //     $("nav-fil").toggleClass("bg-dark");
-        //     })
-    
-       
-        
+   
+   
 });
+$(window).scroll(function(){
+    if($(this).scrollTop()>0) {
+        $('#header img').attr('src','../../assets/images/logo2.png');
+        $('#offres').attr('style','color:#008F70');
+        $('#border').attr('style','border-left: 1px solid #008F70')
+         $('#menu-icon').addClass('add')
+        //  ::::::::::::::::::::::::::::::::::::::::::::::::::::
+         $('#lang1').addClass('lang-dropdown')
+
+       
+         
+    }
+    else {
+        $('#header img').attr('src','../../assets/images/logo.svg');
+        $('#offres').attr('style','color:008F70');
+        $('#border').attr('style','border-left: 1px solid withe')
+
+    
+        $('#menu-icon').removeClass('add')
+// /::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+        $('#lang1').removeClass('lang-dropdown')
+
+     
+    }
+})
 window.addEventListener('scroll', function () {
     let nav = document.querySelector('nav');
     let windowPosition = window.scrollY > 0;

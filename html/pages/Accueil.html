@@ -21,7 +21,12 @@
           <header >
             <nav class="nav">
               <div class="col-12 d-flex justify-content-between" id="fixed-header">
-                <div class="block-logo"   >
+                <div class="block-logo"  id="header"  >
+                  <a href="Accueil.html" class="logo-link d-flex">
+                    <img src="../../assets/images/logo.svg" class="img-fluid" alt="logo" id="fixed-logo" >
+                  </a>
+                </div>
+                <div class="block-logo d-none"   >
                   <a href="Accueil.html" class="logo-link d-flex">
                     <img src="../../assets/images/logo.svg" class="img-fluid" alt="logo" id="fixed-logo" >
                   </a>
@@ -29,11 +34,12 @@
                 <div class="block-menu-deals">
                   <div class="block-deals" id="fixed-logo1">
                     <ul class="list-group list-unstyled list-group-horizontal">
-                      <li class="list-group-item d-none d-lg-block" ><a style="color: 008F70;"
+                      <li class="list-group-item d-none d-lg-block"  ><a id="offres"
                           href="Page-Deals-Filter.html">Accès aux offres</a></li>
-                      <li class="list-group-item">
-                        <a href="#" id="lang-dropdown" data-toggle="dropdown" aria-haspopup="true"
+                      <li class="list-group-item" id="border">
+                        <a class="world" href="#" id="lang1" data-toggle="dropdown" aria-haspopup="true"
                           aria-expanded="false"></a>
+                        
                         <div class="dropdown-menu"   aria-labelledby="lang-dropdown">
                           <a class="dropdown-item selected" href="#">Francais</a>
                           <a class="dropdown-item" id="languge" href="#">Arabe</a>
@@ -43,7 +49,7 @@
                   </div>
                   <div class="block-menu">
                     <button type="button" class="btn" id="menu-toggle">
-                      <span class="menu-icon" id="menu-icon" > </span>
+                      <span class="menu-iconhome" id="menu-icon" > </span>                     
                     </button>
                   </div>
                 </div>
@@ -204,7 +210,7 @@
         <div class="row">
           <div class="col-12 p-0">
             <div id="homeCarousel" class="carousel slide" data-ride="carousel">
-              <ol class="carousel-indicators">
+              <ol class="carousel-indicators " id="home">
                 <li data-target="#homeCarousel" data-slide-to="0" class="active"></li>
                 <li data-target="#homeCarousel" data-slide-to="1"></li>
                 <li data-target="#homeCarousel" data-slide-to="2"></li>
@@ -214,7 +220,7 @@
                 <div class="title">
                   <h1>Lorem ipsum dolor</h1>
                 </div>
-                <div class="sub-title">
+                <div class="sub-title " id="subtitle">
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                     labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                   </p>
@@ -222,23 +228,23 @@
               </div>
               <div class="carousel-inner">
                 <div class="carousel-item active" id="Page-Details-Deals.html">
-                  <img src="../../assets/images/slide-image-1.png" class="d-block w-100" alt="Slide Occaz">
+                  <img src="../../assets/images/slide-image-1.png" class="d-block w-100" alt="Slide Occaz" id="slid">
                 </div>
                 <div class="carousel-item" id="Page-Details-Deals-Citroen.html">
-                  <img src="../../assets/images/slide-image-1.png" class="d-block w-100" alt="Slide Occaz">
+                  <img src="../../assets/images/slide-image-1.png" class="d-block w-100" alt="Slide Occaz" id="slid">
                 </div>
                 <div class="carousel-item" id="Page-Details-Deals-Ds.html">
-                  <img src="../../assets/images/slide-image-1.png" class="d-block w-100" alt="Slide Occaz">
+                  <img src="../../assets/images/slide-image-1.png" class="d-block w-100" alt="Slide Occaz" id="slid">
                 </div>
                 <div class="carousel-item" id="Page-Details-Deals-Ds.html">
-                  <img src="../../assets/images/slide-image-1.png" class="d-block w-100" alt="Slide Occaz">
+                  <img src="../../assets/images/slide-image-1.png" class="d-block w-100" alt="Slide Occaz"id="slid" >
                 </div>
               </div>
             </div>
           </div>
-          <div class="fixed-right  d-lg-block">
-            <a href="#" class="btn">chat</a>
-            <a href="#" class="btn">calculators</a>
+          <div class="fixed-right d-lg-block"  id="chate">
+            <a href="#" class="btn chat">chat</a>
+            <a href="#" class="btn calcu">calculators</a>
           </div>
         </div>
       </div>
