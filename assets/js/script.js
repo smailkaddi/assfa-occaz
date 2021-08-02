@@ -44,10 +44,10 @@ $(document).ready(function() {
     $(".form-toggler").click(function() {
         if(showForm == true) {
             $(".deals-form").addClass("show");
-            $(".d-deals .body, footer").fadeOut(500);
+            $("#no,.d-deals .body, footer").fadeOut(500);
         }else {
             $(".deals-form").removeClass("show");
-            $(".d-deals .body, footer").fadeIn(500);
+            $(" #no,.d-deals .body, footer").fadeIn(500);
         }
         showForm = !showForm;
         
