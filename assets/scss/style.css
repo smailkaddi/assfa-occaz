@@ -53,11 +53,11 @@ button.bg-dark-green:hover {
   }
 
  
-
-  .d-block {
+/* 
+  /* .d-block {
     margin-top: 40px !important;
 
-  }
+  } */ */
   hr {
   
     border-top: 2px solid rgba(0,0,0,.1);
@@ -554,11 +554,9 @@ section.header .block-menu-deals .block-deals {
     margin-top: 0px;
   }
 
-  .d-block {
-    margin-top: 40px !important;
-   
+  
 
-  }
+ 
   .visi {
     visibility: hidden !important;
   }
@@ -569,6 +567,8 @@ section.header .block-menu-deals .block-deals {
   }
   #slid{
    height: 745px;
+   margin-top: -65px !important;
+
   }
   .nav {
   
@@ -595,9 +595,11 @@ section.header .block-menu-deals .block-deals li a {
     border-left: 1px solid white;
     line-height: .8;
   }
-  .d-block {
+  /* .d-block {
     margin-top: 4px !important;
-}
+} */
+
+
 .menu-iconhome{
   top: 6px;
 }
@@ -1234,9 +1236,9 @@ body form input[type="radio"]+label {
 }
 
 
-body.d-deals {
+/* body.d-deals {
   overflow-y: hidden;
-}
+} */
 
 body section .container-fluid {
   padding: 0px 5%;
@@ -1552,7 +1554,7 @@ body section.search .block-search .col-lg-10 form .flex-fills button {
 @media screen and (max-width: 992px) {
 
   body section.search .block-search {
-    margin: 5rem 12px;
+    margin: 4rem 12px;
 
   }
 
@@ -2449,7 +2451,7 @@ body section .container-fluid a.btn.bg-green:after {
   .carousel-item{
     margin-top:8rem;
   }
-  .d-block {
+  #voiture {
     margin-top: 10px !important;
   }
   .form-toggler{
