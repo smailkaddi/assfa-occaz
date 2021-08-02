@@ -53,11 +53,11 @@ button.bg-dark-green:hover {
   }
 
  
-/* 
-  /* .d-block {
-    margin-top: 40px !important;
 
-  } */ */
+   .d-block {
+    margin-top: 30px !important;
+
+  } 
   hr {
   
     border-top: 2px solid rgba(0,0,0,.1);
