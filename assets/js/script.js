@@ -76,7 +76,7 @@ $(window).scroll(function(){
     if($(this).scrollTop()>0) {
         $('#header img').attr('src','../../assets/images/logo2.png');
         $('#offres').attr('style','color:#008F70');
-        $('#border').attr('style','border-left: 1px solid #008F70')
+        // $('#border').attr('style','border-left: 1px solid #008F70')
          $('#menu-icon').addClass('add')
         //  ::::::::::::::::::::::::::::::::::::::::::::::::::::
          $('#lang1').addClass('lang-dropdown')
@@ -87,7 +87,7 @@ $(window).scroll(function(){
     else {
         $('#header img').attr('src','../../assets/images/logo.svg');
         $('#offres').attr('style','color:008F70');
-        $('#border').attr('style','border-left: 1px solid withe')
+        // $('#border').attr('style','border-left: 1px solid withe')
 
     
         $('#menu-icon').removeClass('add')

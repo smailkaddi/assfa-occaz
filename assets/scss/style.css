@@ -578,6 +578,9 @@ section.header .block-menu-deals .block-deals {
   
 }
 
+#acces{
+  color: #008F70;
+}
 section.header .block-menu-deals .block-deals li {
   border: unset;
   padding: 0 1.25rem;
@@ -628,6 +631,9 @@ section.header .block-menu-deals .block-deals li:last-child a#lang-dropdown1 {
 .lang-dropdown
 {
   content: url("../svg/globe.svg");
+}
+#brder-colr{
+  border-left: solid 1px  #008F70;
 }
 
 @media screen and (min-width: 1920px) {
@@ -726,7 +732,6 @@ section.header .menu-container .body {
 }
 
 
-
 @media screen and (max-width: 992px) {
   section.header .menu-container {
     padding: 0rem 10%;
@@ -741,7 +746,13 @@ section.header .menu-container .body {
   section.header .menu-container .body {
     padding: 0;
   }
+  #acces{
+    color: white;
+  }
 
+  #brder-colr{
+    border-left: solid white;
+  }
 
 }
 
@@ -1040,21 +1051,29 @@ body .h1 {
     white-space: unset;
   }
   #chate {
-    top: 798px;
-    right: 1px;
+    top: 825px;
+    right: 0px;
     width: 100%
+    
 
   }
  #chate .chat{
-   float:right;
-   margin-right: 80px;
+   float:left;  
+ /* margin-left: 70px; */
+   padding-right:25%;
+   padding-left:25%;
+
+   border-right: 1px  solid  white;
  
 
  }
+ 
+ 
  #chate .calcu{
-  margin-left: 20px;
-  margin-left: 100px;
-
+  float:right;
+  /* margin-right: 95px; */
+  padding-left:2%;
+  padding-right:25%;
 }
 
 }
@@ -1137,7 +1156,7 @@ margin-top: -25px
 body input:not([type="radio"]),
 body select,
 body button:not(#menu-toggle) {
-  border-color: #fdfdfd !important;
+  /* border-color: #fdfdfd !important; */
   border-radius: unset !important;
 
 }
@@ -1228,10 +1247,17 @@ body form input[type="radio"]+label {
 @media screen and (max-width: 992px) {
   body form button:not(.no-100) {
     width: 100% !important;
+    border: none;
   }
 
   .sub-title p {
     font-size: 1rem;
+  }
+  #Newsletter {
+    font-size: 16px
+  }
+  .title h3 {
+    font-weight: bold;
   }
 }
 
@@ -1502,8 +1528,8 @@ body section.search .block-search .col-lg-10 form .flex-fills button {
   body section.search .block-search .col-lg-10 form .flex-fill,
   body section.search .block-search .col-lg-10 form .flex-fills {
     width: 100%;
-
     margin-bottom: 1.1rem;
+    height: 50px;
   }
 
  
@@ -2438,7 +2464,7 @@ body .x-close:after {
   .br-mobile{
     display:none!important;
   }
- /
+ 
   body h6,
   body .h6 {
     font-size: 15px;
@@ -2465,6 +2491,7 @@ body section .container-fluid a.btn.bg-green:after {
  
 
   }
+  
   
 }
 
@@ -2503,4 +2530,5 @@ body section .container-fluid a.btn.bg-green:after {
 
   height: 58px;
 }
+
 
